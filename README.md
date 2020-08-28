@@ -57,7 +57,7 @@ ____
 There are five main steps to this project.
 
 #### 1. Locate Marker in Image
-<img align="center" src=data/Theory_Step_1_Process.jpg width="1492" height="247"/>
+<img align="center" src=data/Theory_Step_1_Process.jpg width="895" height="149"/>
 
 <p align="justify">
 First, the image (a) is gray-scaled, then binarized using thresholding (b) with a fixed value (105).

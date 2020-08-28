@@ -34,7 +34,8 @@ ____
 
 ### Usage/Installation 
 <p align="justify">
-For direct usage, please go to Release and see Version 1.0. Download, unzip, and
+For direct usage, please go to Release and see Version 1.0. Download 
+AR_Marker_Tracking_Release_V1.0.zip, unzip, and
 then double click on Marker_Detection_Try_2.exe
 </p>
 

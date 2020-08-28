@@ -34,9 +34,10 @@ ____
 
 ### Usage/Installation 
 <p align="justify">
-For direct usage, please go to Release and see Version 1.0. Download 
-AR_Marker_Tracking_Release_V1.0.zip, unzip, and
-then double click on Marker_Detection_Try_2.exe
+For direct usage, please go to Release and see Version 1.0. Download the relevant
+AR_Marker_Tracking_Release_V1.0 zip, unzip, and then run. For Mac users,
+please run chmod 755 [application_name].app/Contents/MacOS/[application_name] before
+running to enable execution.
 </p>
 
 <p align="justify">

@@ -74,8 +74,8 @@ Adaptive thresholds were not used since we know that the binary markers are blac
 adaptive thresholds would cause more background objects to be highlighted and seem like markers,
 increasing processing time. Once binarized, contours for the image were found using OpenCV's
 findContours function. These contours were then passed into OpenCV's approxPolyDP to approximate
-into polygons. These polygons were then filtered by size (too small would be noise), and shape (
-we know that the markers should be square and hence have four corners). These polygons are
+into polygons. These polygons were then filtered by size (too small would be noise), and shape (we 
+know that the markers should be square and hence have four corners). These polygons are
 displayed in image (c). 
 </p>
 
@@ -97,14 +97,14 @@ Once the six refined edge positions on each edge is found, an edge is fitted to 
 to yield the refined edge positions (f). Once these refined edges are found, the refined corner
 positions can be found by taking the cross product of the refined edges to find the intersection
 (g). With the refined corner locations, a homography can be computed (as a 2D homography requires
-four points, and there are four corners per marker), to bring the marker to be planar.
+four points, and there are four corners per marker), to bring the marker to be planar (h).
 This is done via OpenCV's getPerspectiveTransform to a fixed set of coordinates to find the
 transformation, then warpPerspective to perform the actual transformation. A final thresholding
 is then performed to separate the white and black squares.
 </p>
 
 #### 3. Identify Marker ID
-<img align="center" src=data/Theory_Step_3_Process.jpg width="518" height="220"/>
+<img align="center" src=data/Theory_Step_3_Process.png width="518" height="220"/>
 
 <p align="justify">
 With the marker becoming a planar image and thresholded, the marker ID can then be deduced by
@@ -116,7 +116,7 @@ orientation is the marker rotated by 90 degrees clockwise with marker ID 0286.
 </p>
 
 #### 4. Estimate Marker Pose
-<img align="center" src=data/Theory_Step_4_Process.jpg width="389" height="218"/>
+<img align="center" src=data/Theory_Step_4_Process.png width="389" height="218"/>
 
 <p align="justify">
 Once we have the position of the four corners, we can compute the position and orientation

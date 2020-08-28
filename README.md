@@ -2,7 +2,7 @@
 
 ### Introduction
 
-<img align="right" src=data/AR_Marker_Tracking_Final_Video.gif width="396" height="362"/>
+<img align="right" src=data/AR_Marker_Tracking_Final_Video.gif width="400" height="226"/>
 
 This project was done for EN.601.654 Augmented Reality Course at Johns Hopkins University.
 With augmented reality systems, the goal is to place virtual objects in the view of the user.

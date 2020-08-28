@@ -2,8 +2,9 @@
 
 ### Introduction
 
-<img align="right" src=data/AR_Marker_Tracking_Final_Video.gif width="600" height="338"/>
+<img align="right" src=data/AR_Marker_Tracking_Final_Video.gif width="500" height="282"/>
 
+<p align="justify">
 This project was done for EN.601.654 Augmented Reality Course at Johns Hopkins University.
 With augmented reality systems, the goal is to place virtual objects in the view of the user.
 But without additional information about the scene in question, it is difficult for AR systems
@@ -21,6 +22,7 @@ ArUco markers in real time, through the creation of a Unity Application.
 
 Please check the powerpoint for details, references, and explanation!
 The powerpoint URL is [here](https://drive.google.com/open?id=1_aS8RuEpxBSvm6QSTLZmo-pQbEXdsq4R)
+</p>
 
 ### Usage/Installation 
 Please import as a Visual Studio project, and build as .dll for the library.
